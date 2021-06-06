@@ -1,0 +1,17 @@
+baseURL = "http://example.org/"
+languageCode = "zh-tw"
+DefaultContentLanguage = "zh-tw"
+title = "Leetcode Story"
+theme = "ananke"
+
+
+# === TRANSLATIONS ===
+[Languages]
+
+[Languages.zh-tw]
+  languageCode  = "zh-tw"
+  languageName  = "正體中文（臺灣）"
+
+# [Languages.en]
+#   languageCode  = "en"
+#   languageName  = "English"
