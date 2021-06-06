@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Leetcode Story</title>
-    <link>http://example.org/posts/</link>
+    <link>https://jacoblincool.github.io/leetcode-blog/posts/</link>
     <description>Recent content in Posts on Leetcode Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 06 Jun 2021 20:00:00 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jacoblincool.github.io/leetcode-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>695. Max Area of Island</title>
-      <link>http://example.org/posts/0695/</link>
+      <link>https://jacoblincool.github.io/leetcode-blog/posts/0695/</link>
       <pubDate>Sun, 06 Jun 2021 20:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/0695/</guid>
+      <guid>https://jacoblincool.github.io/leetcode-blog/posts/0695/</guid>
       <description>Leetcode 695. Max Area of Island
 題目 You are given an m x n binary matrix grid.
 An island is a group of 1&amp;rsquo;s (representing land) connected 4-directionally (horizontal or vertical.)
@@ -27,10 +27,10 @@ Return the maximum area of an island in grid. If there is no island, return 0.</
     
     <item>
       <title>起始之地</title>
-      <link>http://example.org/posts/start/</link>
+      <link>https://jacoblincool.github.io/leetcode-blog/posts/start/</link>
       <pubDate>Sun, 06 Jun 2021 20:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/start/</guid>
+      <guid>https://jacoblincool.github.io/leetcode-blog/posts/start/</guid>
       <description>故事的開始 Leetcode 是一個蒐集資訊產業面試題目的網站，上面有非常多不同類型的題目，包括演算法、資料庫、Shell、平行運算等。
 這個部落格主要是用來記錄各種題目的解法。</description>
     </item>

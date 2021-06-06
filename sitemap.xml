@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/0695/</loc>
+    <loc>https://jacoblincool.github.io/leetcode-blog/posts/0695/</loc>
     <lastmod>2021-06-06T20:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://jacoblincool.github.io/leetcode-blog/</loc>
     <lastmod>2021-06-06T20:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://jacoblincool.github.io/leetcode-blog/posts/</loc>
     <lastmod>2021-06-06T20:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/start/</loc>
+    <loc>https://jacoblincool.github.io/leetcode-blog/posts/start/</loc>
     <lastmod>2021-06-06T20:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://jacoblincool.github.io/leetcode-blog/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://jacoblincool.github.io/leetcode-blog/tags/</loc>
   </url>
   
 </urlset>
