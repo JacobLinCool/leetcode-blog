@@ -2,27 +2,20 @@ name: Hugo Build & Deploy CI
 on: push
 jobs:
   build_and_deploy:
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        go-version: [1.16.x]
-    runs-on: ${{ matrix.os }}
+    name: Build & Deploy
+    runs-on: ubuntu-latest
     steps:
-    - name: Install Go
-      uses: actions/setup-go@v2
-      with:
-        go-version: ${{ matrix.go-version }}
-    - name: Install Hugo
-      run: sudo apt-get install hugo
-    - name: Checkout code
+    - name: Checkout
       uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
         token: ${{ secrets.GH_TOKEN }}
-    - name: Hugo Build Site
-      run: hugo -D
-    - uses: peaceiris/actions-gh-pages@v3.7.3
-      name: GitHub Page Deploy
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+    - name: Hugo Build
+      run: hugo --minify
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3.7.3
       with:
         github_token: ${{ secrets.GH_TOKEN }}
         publish_dir: "./public"
