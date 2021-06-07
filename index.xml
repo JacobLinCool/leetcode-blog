@@ -13,10 +13,10 @@
     
     <item>
       <title>1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts</title>
-      <link>https://jacoblincool.github.io/leetcode-blog/posts/1465.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/</link>
+      <link>https://jacoblincool.github.io/leetcode-blog/posts/1465/</link>
       <pubDate>Sun, 06 Jun 2021 13:00:00 +0000</pubDate>
       
-      <guid>https://jacoblincool.github.io/leetcode-blog/posts/1465.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/</guid>
+      <guid>https://jacoblincool.github.io/leetcode-blog/posts/1465/</guid>
       <description>Leetcode 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
 題目 You are given a rectangular cake of size h x w and two arrays of integers horizontalCuts and verticalCuts where:
  horizontalCuts[i] is the distance from the top of the rectangular cake to the ith horizontal cut and similarly, and verticalCuts[j] is the distance from the left of the rectangular cake to the jth vertical cut.</description>
