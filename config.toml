@@ -3,21 +3,43 @@ languageCode = "zh-tw"
 DefaultContentLanguage = "zh-tw"
 title = "Leetcode Story"
 theme = "ananke"
+googleAnalytics = "G-2QKRM08ESZ"
+enableRobotsTXT = true
 
 
-# === TRANSLATIONS ===
-[Languages]
-
-[Languages.zh-tw]
-  languageCode  = "zh-tw"
-  languageName  = "正體中文（臺灣）"
-
-# [Languages.en]
-#   languageCode  = "en"
-#   languageName  = "English"
+[languages]
+  [languages.zh-tw]
+    languageCode  = "zh-tw"
+    languageName  = "正體中文（臺灣）"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  show_reading_time = true
+  favicon = ""
+  site_logo = ""
+  description = "Leetcode Story"
+  facebook = "https://fb.me/JacobLinCool"
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/JacobLinCool"
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-dark-gray"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 3
