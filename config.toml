@@ -15,3 +15,9 @@ theme = "ananke"
 # [Languages.en]
 #   languageCode  = "en"
 #   languageName  = "English"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
