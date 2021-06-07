@@ -9,4 +9,5 @@ fields:
   name: date
   label: date
 pages:
+- content/posts/0097.md
 - content/posts/0695.md
