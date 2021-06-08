@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jacoblincool.github.io/leetcode-blog/sitemap.xml
