@@ -25,7 +25,7 @@ enableRobotsTXT = true
 
 [params]
   show_reading_time = true
-  favicon = ""
+  favicon = "favicon.ico"
   site_logo = ""
   description = "Leetcode Story"
   facebook = "https://fb.me/JacobLinCool"
