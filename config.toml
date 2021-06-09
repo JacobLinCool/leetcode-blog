@@ -5,6 +5,7 @@ title = "Leetcode Story"
 theme = "ananke"
 googleAnalytics = "G-2QKRM08ESZ"
 enableRobotsTXT = true
+hasCJKLanguage = true
 
 
 [languages]
