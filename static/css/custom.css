@@ -1,3 +1,7 @@
 .mw8 {
   max-width: 96rem;
 }
+
+main.pb7 > article.cf > div.measure-wide-l {
+  max-width: 96rem;
+}
