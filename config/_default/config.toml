@@ -1,4 +1,4 @@
-baseURL = "https://jacoblincool.github.io/leetcode-blog/"
+baseURL = "https://leetcode.pages.dev/"
 languageCode = "zh-tw"
 DefaultContentLanguage = "zh-tw"
 title = "Leetcode Story"
