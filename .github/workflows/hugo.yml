@@ -1,23 +1,26 @@
 name: Hugo Build & Deploy CI
-on: push
+on:
+  push:
+  schedule:
+    - cron: "0 4,10,16,22 * * *"
 jobs:
   build_and_deploy:
     name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.head_ref }}
-        token: ${{ secrets.GH_TOKEN }}
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-    - name: Hugo Build
-      run: env HUGO_ENV="production" hugo --minify
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.7.3
-      with:
-        github_token: ${{ secrets.GH_TOKEN }}
-        publish_dir: "./public"
-        user_name: "JacobLinCool"
-        user_email: "jacoblincool@users.noreply.github.com"
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+      - name: Hugo Build
+        run: env HUGO_ENV="production" hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: "./public"
+          user_name: "JacobLinCool"
+          user_email: "jacoblincool@users.noreply.github.com"
