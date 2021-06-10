@@ -26,7 +26,7 @@ hasCJKLanguage = true
 
 [params]
   show_reading_time = true
-  favicon = "favicon.ico"
+  favicon = "favicon.png"
   site_logo = ""
   description = "Leetcode Story"
   facebook = "https://fb.me/JacobLinCool"
